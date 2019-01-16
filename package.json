@@ -1,0 +1,26 @@
+{
+  "name": "electrify-starter",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "sammyne xiangminli@alumni.sjtu.edu.cn",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "yarn compile && electron-builder",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.10",
+    "vuetify": "^1.4.2"
+  },
+  "devDependencies": {
+    "electron": "4.0.1",
+    "electron-builder": "20.38.4",
+    "electron-webpack": "^2.6.2",
+    "electron-webpack-vue": "^2.2.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.5.22",
+    "webpack": "4.28.4"
+  }
+}

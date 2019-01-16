@@ -1,0 +1,6 @@
+{
+  "renderer": {
+    "webpackConfig": "renderer.webpack.additions.js"
+  },
+  "whiteListedModules": ["vuetify"]
+}
